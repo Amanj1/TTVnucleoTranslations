@@ -5,11 +5,11 @@ How to run:
 nextflow -C nucl_to_prot_seq.nf.config run nucl_to_prot_seq.nf
 */
 
-params.contigs='contig_files'
+params.contigs='input_fasta'
 
 /* input files */
 //contig sequences
-contig_files = Channel.fromFilePairs("${params.contigs}/*.fa",size:1)
+contig_files = Channel.fromFilePairs("${params.contigs}/*.fasta",size:1)
 
 
 process seq_to_6frames_prot{
