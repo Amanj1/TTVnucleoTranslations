@@ -22,9 +22,9 @@ Softwares
 
 ## Database
 In the folder called "TTV_prot_DB" we have the TTV database containing 289 sequences. If you need to update the database with more sequences you can use the following command bellow.
-´´´
+```
 makeblastdb -in <reference.fasta> -dbtype prot -parse_seqids -out TTV_prot_ORFs -title "TTV_prot_ORFs"
-´´´
+```
 When running this command, replace <reference.fasta> with the file name of your TTV sequences and when finished, replace the content in "TTV_prot_DB".
 
 ## Running the pipeline
