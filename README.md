@@ -30,5 +30,14 @@ When running this command, replace <reference.fasta> with the file name of your 
 ## Running the pipeline
 The user should create two folders one called 'input_fasta' store all samples with nucleotide sequences in input_fasta. All files must be in fasta format with the file extension ".fasta". 
 
+To run the pipeline in command line:
+```
+nextflow -C TTVnucleoTranslations.config run TTVnucleoTranslations.nf
+```
+To run the pipeline in command line and resume from cache memory:
+```
+nextflow -C TTVnucleoTranslations.config run TTVnucleoTranslations.nf -resume
+```
+
 ### Output folder
 In the output folder "prot_output" you can find your final results with protein sequences in "final_ORFs_results" and "multiORF_fasta". In "final_ORFs_results" sequences are divided by ORF region in separate files and "multiORF_fasta" with all ORFs in one file.
