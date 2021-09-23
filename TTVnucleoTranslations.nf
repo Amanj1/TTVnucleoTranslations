@@ -2,7 +2,7 @@
 
 /*
 How to run:
-nextflow -C nucl_to_prot_seq.nf.config run nucl_to_prot_seq.nf
+nextflow -C TTVnucleoTranslations.config run TTVnucleoTranslations.nf
 */
 
 params.contigs='input_fasta'
