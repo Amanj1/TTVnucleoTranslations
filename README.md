@@ -12,13 +12,13 @@ Is a nucleotide to protein translator for torque teno viruses (TTVs). The pipeli
 
 #### Software versions latest used in testing the pipeline
 Softwares
-| Software     | Version |
-| --------     | ------- |
-| nextflow     | 0 |
-| gotranseq    | 0 |
-| BLAST/blastp | 0 |
-| python3      | 0 |
-| seqtk        | 0 |
+| Software     | Version      |
+| --------     | -------      |
+| nextflow     | 19.07.0.5106 |
+| gotranseq    | 0.2          |
+| BLAST/blastp | 2.9.0+       |
+| python3      | 3.7.8        |
+| seqtk        | 1.3-r106     |
 
 ## Database
 In the folder called "TTV_prot_DB" we have the TTV database containing 289 sequences. If you need to update the database with more sequences you can use the following command bellow.
