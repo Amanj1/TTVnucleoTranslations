@@ -10,7 +10,7 @@ Is a nucleotide to protein translator for torque teno viruses (TTVs). The pipeli
  - [gotranseq](https://github.com/feliixx/gotranseq)
 
 
-#### Software versions latest used in testing the pipeline
+#### Latest software versions used in testing the pipeline
 Softwares
 | Software     | Version      |
 | --------     | -------      |
